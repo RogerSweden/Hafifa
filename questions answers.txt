@@ -1,0 +1,17 @@
+what is git bash?
+git bash emulates git being run in a Bash CLI environment. It is a terminal compatible with windows but based on Linux's bash language.
+
+
+
+what do commits mean in version control system?
+commits are snapshots you save of the current state of your project to which you can revert or diverge from with a branch. one will generally create a commit every time he reaches a certain milestone in his developments so as to not lose them if the following developments ruin them.
+
+what is a branch?
+a branch is git's way to deviate new commits from the main code so as to not interfere with other developers. when you create your new branch, you are able to edit the project based on your selected commit without interfering with other people's work, instead merging it back to the main branch only when needed.
+
+what are merge requests?
+merge requests are a feature in GitHub and GitLab meant to enable other users to merge their branch to your branch, and enables you to review their code and consent or deny.
+
+what is rebase?
+rebase means changing the base commit of a branch. the action is similar to merge as the main purpose of it is to synchronize your branch with another branch. the difference is that in merge your previous commits are kept the same, while in rebase they are rewritten merged with the new base commit. an advantage is if another branch's ongoing development is relevant for you this makes the project history a lot simpler relatively to constant merging.
+one may not rebase a public branch as rebasing rewrites the commits for only one person, it will seem as if his main branch has diverged, he will have to resync it.
