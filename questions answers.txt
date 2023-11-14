@@ -8,7 +8,7 @@ what is a branch?
 a branch is git's way to deviate new commits from the main code so as to not interfere with other developers. when you create your new branch, you are able to edit the project based on your selected commit without interfering with other people's work, instead merging it back to the main branch only when needed.
 
 what are merge requests?
-merge requests are a feature in GitLab meant to enable other users to merge their branch to your branch, and enables you to review their code and consent or deny.
+merge requests are a feature in GitLab and GitHub (pull request) meant to enable other users to merge their branch to your branch, and enables you to review their code and consent or deny.
 
 what is rebase?
 rebase means changing the base commit of a branch. the action is similar to merge as the main purpose of it is to synchronize your branch with another branch. the difference is that in merge your previous commits are kept the same, while in rebase they are rewritten merged with the new base commit. an advantage is if another branch's ongoing development is relevant for you this makes the project history a lot simpler relatively to constant merging.
